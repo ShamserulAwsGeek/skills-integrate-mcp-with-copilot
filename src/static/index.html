@@ -13,6 +13,34 @@
     </header>
 
     <main>
+      <!-- Toolbar for filters, sorting, and search -->
+<section id="toolbar-container">
+  <form id="toolbar-form">
+    <div class="toolbar-group">
+      <label for="category-filter">Category:</label>
+      <select id="category-filter">
+        <option value="">All</option>
+        <option value="Academic">Academic</option>
+        <option value="Sports">Sports</option>
+        <option value="Arts">Arts</option>
+        <option value="Clubs">Clubs</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="toolbar-group">
+      <label for="sort-filter">Sort by:</label>
+      <select id="sort-filter">
+        <option value="name">Name</option>
+        <option value="date">Date</option>
+        <option value="availability">Availability</option>
+      </select>
+    </div>
+    <div class="toolbar-group">
+      <label for="search-filter">Search:</label>
+      <input type="text" id="search-filter" placeholder="Search activities..." />
+    </div>
+  </form>
+</section>
       <section id="activities-container">
         <h3>Available Activities</h3>
         <div id="activities-list">
@@ -44,7 +72,34 @@
     <footer>
       <p>&copy; 2023 Mergington High School</p>
     </footer>
-
+<!-- Toolbar for filters, sorting, and search -->
+<section id="toolbar-container">
+  <form id="toolbar-form">
+    <div class="toolbar-group">
+      <label for="category-filter">Category:</label>
+      <select id="category-filter">
+        <option value="">All</option>
+        <option value="Academic">Academic</option>
+        <option value="Sports">Sports</option>
+        <option value="Arts">Arts</option>
+        <option value="Clubs">Clubs</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="toolbar-group">
+      <label for="sort-filter">Sort by:</label>
+      <select id="sort-filter">
+        <option value="name">Name</option>
+        <option value="date">Date</option>
+        <option value="availability">Availability</option>
+      </select>
+    </div>
+    <div class="toolbar-group">
+      <label for="search-filter">Search:</label>
+      <input type="text" id="search-filter" placeholder="Search activities..." />
+    </div>
+  </form>
+</section>
     <script src="app.js"></script>
   </body>
 </html>
